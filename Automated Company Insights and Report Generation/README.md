@@ -1,7 +1,7 @@
 
 # **Overview**
 
-A **Streamlit-based application** designed to automate the generation of detailed company performance reports. The application processes data from an uploaded Excel file, performs in-depth data analysis, generates visualizations, summarizes insights using GPT-powered LangChain, and produces a professional Word report.
+A Streamlit-based application designed to automate the generation of detailed company performance report. The application processes data from an uploaded Excel file, performs in-depth data analysis, generates visualizations, summarizes insights using GPT-powered LangChain, and produces a professional Word report.
 
 ## **Key Features**
 - **Excel Data Analysis**:
