@@ -14,7 +14,7 @@ Setup Prerequisites
 * Python 3.8 or higher
 * Install required libraries
 * Prepare input.xlsx with two columns:
-  Old Name: Previous company name.
-  New Name: Current or alternate name.
+  - Old Name: Previous company name.
+  - New Name: Current or alternate name.
 * Bing API Configuration: Get an API key and Custom Search Engine ID from the Bing Custom Search API portal.
 * output.xlsx: contains the cleaned company names and referral URLs.
