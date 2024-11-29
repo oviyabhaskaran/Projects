@@ -32,11 +32,8 @@ def process_input_excel_to_output(input_excel_file):
     # Iterate over the range of indices to construct the date range columns
     for i in range(len(date_columns) - 1):
         start_month = date_columns[i]  # Extract the start month from the date columns name
-        # print("start_month:",start_month)
         end_month = date_columns[i + 1]  # Extract the end month from the next date columns name
-        # print("end_month:",end_month )
         new_date_column = f"{start_month} to {end_month}"  # Construct the new date column name
-        # print("new_date_column:",new_date_column)
         date_range_columns.append(new_date_column)
 
     new_date_range_df = pd.DataFrame(columns=date_range_columns)
@@ -100,17 +97,6 @@ def process_input_excel_to_output(input_excel_file):
     # Rounding float columns to 2 decimal places
     final_sorted_df[float_cols] = final_sorted_df[float_cols].round(2)
 
-    # # Write the final DataFrame to an output Excel file
-    # directory = "output_excel_file"
-    # try:
-    #     if not os.path.exists(directory):
-    #         os.makedirs(directory)
-    # except OSError as e:
-    #     print(f"Error: {e.strerror}")
-    #
-    # output_excel_file = "output_excel_file/Company_Performance_Report_Output.xlsx"
-    # final_sorted_df.to_excel(output_excel_file, index=False)
-
     # To create a copy of final_sorted_df
     langchain_df = final_sorted_df.copy()
 
@@ -123,8 +109,6 @@ def process_input_excel_to_output(input_excel_file):
     # Combine the two selections
     langchain_df_combined = pd.concat([first_three_columns, last_five_columns], axis=1)
 
-    #langchain_df_combined['Unit'] = langchain_df_combined['Unit'].str.lower().replace('crores', 'percentage')
-    
     # Get unique unit values
     unit_values = langchain_df_combined['Unit'].unique()
 
@@ -135,11 +119,4 @@ def process_input_excel_to_output(input_excel_file):
     for unit in unit_values:
         langchain_df_combined['Unit'] = langchain_df_combined['Unit'].replace(unit.lower(), 'percentage')
 
-    # output_excel_file_2 = "output_excel_file/Company_Performance_Report_langchain_Output.xlsx"
-    # langchain_df_combined.to_excel(output_excel_file_2, index=False)
-    
     return final_sorted_df, langchain_df_combined
-
-# # Run
-# input_excel_file = r"F:\Thiyagarajan ML\New_Project_Oct_2022_IMP\Mar 2024\Mar 21 - Company Performance Report Generation\Download\Comp_Perf_Input_Template.xlsx"
-# process_input_excel_to_output(input_excel_file)
