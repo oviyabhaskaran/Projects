@@ -89,8 +89,3 @@ def generate_company_report_document(json_directory, output_plot_directories):
     document_name = os.path.join(directory_name, "Company_Performance_Report.docx")
     document.save(document_name)
     return directory_name
-    
-# # Run
-# json_directory = "output_json"
-# output_plot_directory = "output_plot_directory"
-# generate_company_report_document(json_directory, output_plot_directory)
