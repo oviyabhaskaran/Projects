@@ -8,13 +8,11 @@ from functionality.document import generate_company_report_document, read_json
 from functionality.langchain_file import load_config, get_openai_api_key, summarize_company_performance, \
     convert_json_str_to_dict
 
-
 # Function to empty a directory
 def empty_directory(directory):
     for filename in os.listdir(directory):
         file_path = os.path.join(directory, filename)
         os.remove(file_path)
-
 
 # Set up logging
 logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
