@@ -1,13 +1,8 @@
-# pip install -U langchain-community
-# pip install -U langchain-openai
-
 import os
 import json
 import pandas as pd
 import warnings
 import yaml
-# from langchain.llms import OpenAI
-# from langchain_community.llms import OpenAI
 from langchain_openai import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
@@ -15,7 +10,6 @@ from functionality.document import read_json
 
 # Filter out all warnings
 warnings.filterwarnings("ignore")
-
 
 def load_config(config_path):
     """
@@ -45,7 +39,6 @@ def get_openai_api_key(config_json):
         return config_json['openai']['api_key']
     else:
         return None
-
 
 def summarize_company_performance(df, openai_api_key):
     """
@@ -119,23 +112,15 @@ Please ensure your analysis is flexible, catering to the specific metrics, units
             input_variables=["column_names", "table_data"],
             template=prompt_template
         )
-        # print(prompt)
 
-        # chain = LLMChain(llm=llm, prompt=prompt, verbose=True)
         chain = LLMChain(llm=llm, prompt=prompt, verbose=False)
-        # print(chain)
-
         summary = chain.run(data)
-        # print(summary)
-
         json_file_name = f"{company}.json"
-        # print(json_file_name)
 
         # Define the directory name and the file name within that directory
         directory_name = "output_json"
-
         json_file_path = os.path.join(directory_name, json_file_name)
-        # print(json_file_path)
+
 
         # Create the directory if it doesn't exist
         if not os.path.exists(directory_name):
@@ -144,9 +129,6 @@ Please ensure your analysis is flexible, catering to the specific metrics, units
         # Write JSON data to the file
         with open(json_file_path, 'w') as outfile:
             json.dump(summary, outfile)
-
-        # print(f"Summary for {company} saved to {json_file_name}")
-
     return directory_name
 
 
@@ -157,43 +139,15 @@ def convert_json_str_to_dict(input_directory, output_directory):
 
     # Iterate over all files in the input directory
     for filename in os.listdir(input_directory):
-        # print("filename:", filename)
-        # print("filename type:", type(filename))
         input_file_path = os.path.join(input_directory, filename)
-        # print("input_file_path:", input_file_path)
         read_json_file = read_json(input_file_path)
-        # print('read_json_file:', read_json_file)
-        # print('read_json_file type:', type(read_json_file))
 
         # Convert string into dictionary
         dict_filename = json.loads(read_json_file)
-        # print("dict_filename type", type(dict_filename))
-        # print(dict_filename)
-
         output_file_path = os.path.join(output_directory, filename)
-        # print(output_file_path)
-
+   
         # Save the JSON data to the output file
         with open(output_file_path, "w") as output_file:
             json.dump(dict_filename, output_file)
 
     return output_directory
-
-
-# # Run
-# config_path = 'configs/config.yaml'
-# config_json = load_config(config_path)
-# openai_api_key = get_openai_api_key(config_json)
-#
-# # Run
-# excel_file_path = r"F:\Thiyagarajan ML\New_Project_Oct_2022_IMP\Mar 2024\Mar 21 - Company Performance Report Generation\Mar-28-2024-LangChain-Output-Excel-File\Company_Performance_Report_langchain_Output.xlsx"
-# df = pd.read_excel(excel_file_path)
-# openai_api_key = openai_api_key
-#
-# summarize_company_performance(df, openai_api_key)
-#
-
-# # Run
-# input_directory = "output_json"
-# output_directory = "output_json"
-# json_directory = convert_json_str_to_dict(input_directory, output_directory)
