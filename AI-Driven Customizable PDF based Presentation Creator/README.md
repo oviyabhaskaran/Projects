@@ -18,6 +18,3 @@ The AI-Driven PDF Content Presentation Builder is designed to simplify the creat
 
 - **Streamlined User Workflow**  
   A user-friendly process ensures a seamless workflow from PDF upload to final PowerPoint generation.
-
-## ** Input ** : Pdf
-## ** Output ** : pptx format
