@@ -1,9 +1,9 @@
 ![Invoice Extraction Bot](invoice_bot.png)
 
-## **Description**
+## **Overview**
 The Invoice Extraction Bot is a streamlined tool designed to automate the extraction of key information from PDF invoices. By leveraging advanced AI and NLP techniques, the bot simplifies the process of retrieving crucial details such as invoice numbers, item descriptions, quantities, dates, unit prices, totals, and contact details. This data can then be exported to a CSV file for further analysis or record-keeping.
 
-## **Features**
+## **Key Features**
 
 - **PDF Processing**: Upload and process multiple PDF invoices to automatically extract relevant information.
 - **AI-Powered Extraction**: Utilize OpenAI's language model to accurately extract structured data from unstructured text in PDF documents.
