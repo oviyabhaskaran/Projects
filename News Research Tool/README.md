@@ -1,11 +1,8 @@
-# **News Research Tool**
 
-![News Research Tool](bot.jpg)
-
-## **Description**
+## **Overview**
 This tool is designed to enhance the retrieval of critical information from news articles, with a focus on the financial and stock market sectors. Users can input article URLs to quickly access detailed insights and answers, powered by advanced content processing and similarity search technologies.
 
-## **Features**
+## **Key Features**
 
 - **URL Handling**: Easily load URLs or upload text files containing multiple URLs to extract article content.
 - **Content Processing**: Utilize LangChain's UnstructuredURL Loader to process and structure the extracted article content efficiently.
