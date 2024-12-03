@@ -1,6 +1,6 @@
 ## Overview
 
-The AI-Driven PDF Content Presentation Builder is designed to simplify the creation of PowerPoint presentation by automating the extraction and processing of PDF content. By utilizing the Llama 3 model, the system efficiently organizes the extracted information and dynamically generates slides with relevant titles and content. The project also includes features for inserting images and charts, ensuring visually enhanced and customizable presentation.
+The AI-Driven PDF Content Presentation Builder is designed to simplify the creation of PowerPoint presentation using python-pptx by automating the extraction and processing of PDF content. By utilizing the Llama 3 model, the system efficiently organizes the extracted information and dynamically generates slides with relevant titles and content. The project also includes features for inserting images and charts, ensuring visually enhanced and customizable presentation.
 
 ## Key Features
 
