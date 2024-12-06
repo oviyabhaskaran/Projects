@@ -1,6 +1,6 @@
 
 ## Overview
-The Invoice Parsing System is a robust solution designed to automate the extraction of key entities from invoices with high accuracy. Leveraging the power of LayoutLMv3 and advanced preprocessing techniques, this system efficiently identifies and extracts critical details such as invoice numbers, dates, and totals. This system streamlines invoice processing, making it an invaluable tool for businesses seeking to optimize document management workflows.
+The **Invoice Parsing System** is a robust solution designed to automate the extraction of key entities from invoices with high accuracy. Leveraging the power of **LayoutLMv3** and advanced preprocessing techniques, this system efficiently identifies and extracts critical details such as invoice numbers, dates, and totals. This system streamlines invoice processing, making it an invaluable tool for businesses seeking to optimize document management workflows.
 
 ## Key Features
 
