@@ -1,7 +1,7 @@
 
 ## Overview
 
-The Question-Answering System with Semantic Search enables precise retrieval and analysis of document content through semantic search. It combines Pinecone for vector indexing, OpenAI embeddings for understanding, and LangChain QA with GPT-3.5-turbo for generating accurate, context-aware answers. A FastAPI endpoint provides seamless interaction with metadata-enriched responses.
+The **Question-Answering System** with Semantic Search enables precise retrieval and analysis of document content through semantic search. It combines Pinecone for vector indexing, OpenAI embeddings for understanding, and LangChain QA with **GPT-3.5-turbo** for generating accurate, context-aware answers. A FastAPI endpoint provides seamless interaction with metadata-enriched responses.
 
 ## Key Features
 
