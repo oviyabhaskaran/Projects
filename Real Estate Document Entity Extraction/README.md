@@ -1,7 +1,7 @@
 
 # Overview
 
-The Real Estate Document Entity Extraction is a cutting-edge solution that automates the identification and extraction of critical building description entities from complex PDF documents. Leveraging advanced natural language processing (NLP) techniques and AI models, the system is designed to streamline the processing of real estate documents by efficiently retrieving and structuring essential information. This project integrates tools like **ChromaDB** for document storage, **LangChain** for seamless data access, and **GPT-3** for accurate and contextual entity recognition. 
+The **Real Estate Document Entity Extraction** is a cutting-edge solution that automates the identification and extraction of critical building description entities from complex PDF documents. Leveraging advanced natural language processing (NLP) techniques and AI models, the system is designed to streamline the processing of real estate documents by efficiently retrieving and structuring essential information. This project integrates tools like **ChromaDB** for document storage, **LangChain** for seamless data access, and **GPT-3** for accurate and contextual entity recognition. 
 
 ## Key Features
 
