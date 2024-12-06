@@ -1,6 +1,6 @@
 # **Overview**
 
-This project is a Python-based application designed to match and validate Company Names, particularly when multiple names may refer to the same entity (e.g., due to mergers or acquisitions). By using Bing Custom Search API, the program identifies and retrieves relevant reference URLs for paired company names, providing insights into whether two names represent the same company or different entities. The application also generates a well-formatted Excel report containing the input company names and the corresponding reference URLs, applying advanced formatting for readability.
+This project is a Python-based application designed to match and validate Company Names, particularly when multiple names may refer to the same entity (e.g., due to mergers or acquisitions). By using **Bing Custom Search API**, the program identifies and retrieves relevant reference URLs for paired company names, providing insights into whether two names represent the same company or different entities. The application also generates a well-formatted Excel report containing the input company names and the corresponding reference URLs, applying advanced formatting for readability.
 
 ## **Key Features**
 
