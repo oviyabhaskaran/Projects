@@ -1,13 +1,14 @@
 # FastAPI File Upload Service
 
-This FastAPI application provides an endpoint to upload files in chunks and assemble them on the server.
+This FastAPI application allows users to upload and download files efficiently using chunked uploads, HTTP Range requests, and JWT authentication.
 
 ## Features
 
-- Supports chunked file uploads
-- Verifies chunk integrity using checksums
-- Assembles uploaded chunks into a complete file
-- Provides file status (complete, pending, or missing)
+- Chunked File Uploads – Upload large files in parts
+- Resumable Downloads – Supports partial downloads using HTTP Range
+- JWT Authentication – Secure access to API endpoints
+- File Status Check – Monitor upload progress
+- Automated Cleanup – Removes old incomplete files
 
 ## Installation
 
