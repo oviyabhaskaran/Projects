@@ -28,7 +28,7 @@ To run the application locally, follow these steps:
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scriptsctivate`
+   source venv/bin/activate  
    ```
 
 3. **Install the required dependencies:**
