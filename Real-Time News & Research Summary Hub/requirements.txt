@@ -1,0 +1,7 @@
+streamlit
+requests
+tavily-python
+arxiv
+python-dotenv
+python-docx
+transformers
