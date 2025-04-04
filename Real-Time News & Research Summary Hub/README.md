@@ -80,7 +80,7 @@ The app will be available in your browser at `http://localhost:8501`.
 ## Usage
 Once the application is running, users can:
 
-- Enter a search query (e.g., "Climate Risk," "InsureTech," etc.) into the input box.
+- Enter a search query (e.g., "Climate change") into the input box.
 - Click on the **Generate** button to fetch news articles and research papers related to the query.
 - View summarized content displayed below the input area.
 - Optionally, click the **Download Report** button to download the summarized content in a Word document format.
