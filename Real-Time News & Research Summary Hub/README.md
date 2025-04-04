@@ -41,7 +41,6 @@ To run the application locally, follow these steps:
 
    ```bash
    TAVILY_API_KEY=your_tavily_api_key
-   GROQ_API_KEY=your_groq_api_key
    NEWSAPI_API_KEY=your_newsapi_api_key
    ```
 
@@ -63,7 +62,6 @@ You will need to obtain the API keys for NewsAPI, Tavily, and Groq. These keys s
 
 You can sign up for these APIs at:
 - [NewsAPI](https://newsapi.org/)
-- [Groq API](https://groq.co/)
 - [Tavily API](https://tavily.com/)
 
 ### Run the Application:
