@@ -52,7 +52,7 @@ To run the application locally, follow these steps:
    pip install streamlit
    pip install requests
    pip install python-dotenv
-   pip install docx
+   pip install python-docx
    ```
 
 ## Setup Instructions
