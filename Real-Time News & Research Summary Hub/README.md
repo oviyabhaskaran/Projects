@@ -13,9 +13,6 @@ InsightSnap is an AI-powered application that fetches real-time news articles an
 - [Installation](#installation)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Model Details](#model-details)
-- [Key Performance Indicators](#key-performance-indicators)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
