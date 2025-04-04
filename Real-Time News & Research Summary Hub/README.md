@@ -13,7 +13,6 @@ InsightSnap is an AI-powered application that fetches real-time news articles an
 - [Installation](#installation)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [License](#license)
 
 ## Installation
 To run the application locally, follow these steps:
@@ -85,6 +84,3 @@ Once the application is running, users can:
 - Click on the **Generate** button to fetch news articles and research papers related to the query.
 - View summarized content displayed below the input area.
 - Optionally, click the **Download Report** button to download the summarized content in a Word document format.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
