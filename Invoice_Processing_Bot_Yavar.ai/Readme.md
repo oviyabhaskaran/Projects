@@ -4,10 +4,10 @@ A smart invoice processing assistant that extracts, validates, and summarizes in
 
 ## Features
 
-- ** Auto PDF type detection  ** (embedded text vs scanned)
-- ** LLM-based Extractor Agent ** for structured JSON
-- ** Validator Agent ** for high-value and missing GST checks
-- ** Summary Agent** for 1-line results
+- **Auto PDF type detection** (embedded text vs scanned)
+- **LLM-based Extractor Agent** for structured JSON
+- **Validator Agent** for high-value and missing GST checks
+- **Summary Agent** for 1-line results
 
 ## Streamlit UI
 
@@ -45,8 +45,8 @@ streamlit run streamlit_app.py
 
 ## Validations Applied
 
-- ** High Value ** : if converted total > ₹1,00,000 (INR)
-- ** GST Missing ** : if vendor GST not present or blank
+- **High Value** : if converted total > ₹1,00,000 (INR)
+- **GST Missing** : if vendor GST not present or blank
 
 ## UI Layout
 
