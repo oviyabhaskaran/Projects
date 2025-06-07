@@ -16,23 +16,22 @@ A smart invoice processing assistant that extracts, validates, and summarizes in
 - Extracted fields
 - Final JSON + Summary
 - Custom background image support
-- Secure .env API key loading
 
 ## Setup Instructions
 
 1. Clone & Install
 
-git clone https://github.com/oviyabhaskaran/Invoice_Processing_Bot-Yavarai.git
-cd invoice-bot
-pip install -r requirements.txt
+- git clone https://github.com/oviyabhaskaran/Invoice_Processing_Bot-Yavarai.git
+- cd invoice-bot
+- pip install -r requirements.txt
 
 2. Add Your .env File
 
-MISTRAL_API_KEY=your_api_key_here
+- MISTRAL_API_KEY=your_api_key_here
 
 3. Run the App
 
-streamlit run streamlit_app.py
+- streamlit run streamlit_app.py
 
 ## Validations Applied
 
