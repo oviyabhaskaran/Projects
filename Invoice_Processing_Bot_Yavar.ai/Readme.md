@@ -35,7 +35,7 @@ Mistral AI API provides a seamless way for developers to integrate Mistral's sta
 
 3. Run the App
 
-- streamlit run streamlit_app.py
+- streamlit run app.py
 
 ## Validations Applied
 
@@ -52,3 +52,11 @@ Mistral AI API provides a seamless way for developers to integrate Mistral's sta
 
 - https://mistral.ai/products/la-plateforme
 - https://pymupdf.readthedocs.io/en/latest/
+
+## How can we proceed further
+
+- Batch Processing
+- Signature checking
+- Google sheets
+
+**Thank you for this Oppurtunity**. I have uploaded all the files regarding this task. I can explain elaborately about how I came up with this solution and challenges faced. Looking Forward!
