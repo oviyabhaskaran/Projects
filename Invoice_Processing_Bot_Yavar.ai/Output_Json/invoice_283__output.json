@@ -1,0 +1,54 @@
+{
+  "invoice_number": "69087316",
+  "invoice_date": "2011-12-08",
+  "vendor": {
+    "name": "Simmons-Henry",
+    "address": "185 Stewart Mall, Phillipsland, AK 27118",
+    "gst_number": "918-88-0475"
+  },
+  "client": {
+    "name": "Adkins LLC",
+    "address": "138 Stephanie Keys, Joycemouth, KS 06054",
+    "gst_number": "995-99-7750"
+  },
+  "total_amount": {
+    "currency": "USD",
+    "value": 91.39
+  },
+  "line_items": [
+    {
+      "description": "2 Wine Glasses 8oz 7\" inches tall drinks for two Good condition (fast shipper)",
+      "quantity": 2,
+      "unit_price": 5.0,
+      "net_worth": 10.0,
+      "vat_percent": 10,
+      "gross_worth": 11.0
+    },
+    {
+      "description": "Rust Proof Three Rows Tool Wine Glass Holder Simple Iron Wire Home Hanging Rack",
+      "quantity": 2,
+      "unit_price": 11.56,
+      "net_worth": 23.12,
+      "vat_percent": 10,
+      "gross_worth": 25.43
+    },
+    {
+      "description": "Wine spoon",
+      "quantity": 2,
+      "unit_price": 5.0,
+      "net_worth": 10.0,
+      "vat_percent": 10,
+      "gross_worth": 11.0
+    },
+    {
+      "description": "Mikasa Cheers Metallics Gold 14oz Wine Glasses With Original Stickers ~Set Of 2",
+      "quantity": 4,
+      "unit_price": 9.99,
+      "net_worth": 39.96,
+      "vat_percent": 10,
+      "gross_worth": 43.96
+    }
+  ],
+  "validations": [],
+  "summary": "Invoice processed successfully with no validation issues."
+}

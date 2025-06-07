@@ -1,0 +1,41 @@
+{
+  "invoice_number": "006812",
+  "invoice_date": "2025-03-16",
+  "vendor": {
+    "name": "hello private limited",
+    "address": "",
+    "gst_number": ""
+  },
+  "client": {
+    "name": "Smahi JHman Lamay Purello Cruz News koyla",
+    "address": "NH-2809 PPO AP 50747",
+    "gst_number": ""
+  },
+  "total_amount": {
+    "currency": "USD",
+    "value": 175000.06
+  },
+  "line_items": [
+    {
+      "description": "1/2 per followed by cheesy",
+      "quantity": 60.0,
+      "unit_price": 50.0,
+      "net_worth": 3000.0,
+      "vat_percent": 50,
+      "gross_worth": 4500.0
+    },
+    {
+      "description": "2/3 books followed by encheesy",
+      "quantity": 70.0,
+      "unit_price": 70.0,
+      "net_worth": 4900.0,
+      "vat_percent": 100,
+      "gross_worth": 9800.0
+    }
+  ],
+  "validations": [
+    "High Value",
+    "GST Missing"
+  ],
+  "summary": "Invoice flagged for: High Value, GST Missing."
+}
