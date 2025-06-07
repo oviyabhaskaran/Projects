@@ -1,2 +1,2 @@
-# Showcasing Data Science and LLM-Based GenAI Projects
+# Showcasing Data Science and LLM-Based Projects
 This repository is a showcase of innovative projects at the intersection of **Data Science** and **Generative AI**. It includes real-world applications of LLMs like GPT-3, LLaMA2, and LayoutLMv3 across fields such as NLP, Computer Vision, and Analytics. Each project illustrates best practices in data handling, AI model building, and system design, providing valuable insights for advancing your AI expertise.
