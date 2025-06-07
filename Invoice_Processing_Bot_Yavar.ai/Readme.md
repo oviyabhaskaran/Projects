@@ -2,6 +2,10 @@
 
 A smart invoice processing assistant that extracts, validates, and summarizes invoices using LLM agents, with Pymupdf for proper PDFs and built-in Mistral OCR for scanned or handwritten PDFs. Built with Streamlit UI and integrated with Mistral AI.
 
+## Mistral AI
+
+Mistral AI API provides a seamless way for developers to integrate Mistral's state-of-the-art models into their applications and production workflows with just a few lines of code. The Mistral models allows you to chat with a model that has been fine-tuned to follow instructions and respond to natural language prompts. A prompt is the input that you provide to the Mistral model. It can come in various forms, such as asking a question, giving an instruction, or providing a few examples of the task you want the model to perform. Based on the prompt, the Mistral model generates a text output as a response.
+
 ## Features
 
 - **Auto PDF type detection** (embedded text vs scanned)
@@ -43,3 +47,8 @@ A smart invoice processing assistant that extracts, validates, and summarizes in
 - Left Column: File Upload
 - Center Column: Final Output + Summary
 - Right Column: Raw OCR/Text + Extracted JSON
+
+## Sources
+
+- https://mistral.ai/products/la-plateforme
+- https://pymupdf.readthedocs.io/en/latest/
