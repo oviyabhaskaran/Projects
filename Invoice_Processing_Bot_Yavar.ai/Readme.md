@@ -18,20 +18,11 @@ A smart invoice processing assistant that extracts, validates, and summarizes in
 - Custom background image support
 - Secure .env API key loading
 
-## Project Structure
-
-project_folder/
-├── .env                    ← Mistral AI API key 
-├── requirements.txt        ← all dependencies
-├── streamlit_app.py        ← UI logic
-├── your_invoice_script.py  ← invoice logic (agents, OCR)
-├── background.png          ← optional UI background
-
 ## Setup Instructions
 
 1. Clone & Install
 
-git clone https://github.com/yourusername/invoice-bot.git
+git clone https://github.com/oviyabhaskaran/Invoice_Processing_Bot-Yavarai.git
 cd invoice-bot
 pip install -r requirements.txt
 
