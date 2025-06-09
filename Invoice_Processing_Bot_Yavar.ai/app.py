@@ -4,7 +4,7 @@ import json
 import base64
 import os
 from pathlib import Path
-from second_check import(
+from main import(
     extract_text_from_pdf, encode_pdf, run_mistral_ocr, extract_text_from_ocr_response,
     extractor_agent, extract_clean_json, validate_invoice, summary_agent
 )
