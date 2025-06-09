@@ -58,5 +58,3 @@ Mistral AI API provides a seamless way for developers to integrate Mistral's sta
 - Batch Processing
 - Signature checking
 - Google sheets
-
-**Thank you for this Oppurtunity**. I have uploaded all the files regarding this task. I can explain elaborately in the meet if possible about how I came up with this solution and challenges faced. Looking Forward!
