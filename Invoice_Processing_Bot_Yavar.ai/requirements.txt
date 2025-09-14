@@ -1,5 +1,0 @@
-streamlit>=1.30.0
-PyMuPDF>=1.23.7
-mistralai>=0.1.14
-python-dotenv
-Pillow
