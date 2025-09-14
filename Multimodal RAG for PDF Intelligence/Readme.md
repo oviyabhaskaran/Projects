@@ -20,40 +20,7 @@ This project combines **Vision Transformers (CLIP)** with **text embeddings**, i
 3. **Vector Store** → FAISS indexes embeddings for fast retrieval.  
 4. **Retriever** → Finds the most relevant chunks.  
 5. **LLM (GPT-4)** → Generates final answer with retrieved context.  
-
-## Project Structure
-
-multimodal-rag-pdf/
-│── main.py               # Main pipeline script
-│── utils/                # Helper functions
-│── requirements.txt      # Python dependencies
-│── README.md             # Project documentation
-│── flowchart.png         # Architecture diagram
-│── data/                 # Sample PDFs
-
-
-## ⚙️ Installation
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/multimodal-rag-pdf.git
-cd multimodal-rag-pdf
-
-# Create virtual environment (optional)
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
 ---
-
-## ▶️ Usage
-```bash
-# Run the main script
-python main.py --pdf data/sample.pdf --query "What is discussed in section 2?"
-```
 
 Example:
 ```
@@ -63,7 +30,7 @@ Answer: The chart shows the year-on-year revenue growth compared to industry ben
 
 ---
 
-## 📦 Requirements
+## Requirements
 - Python 3.9+
 - PyMuPDF
 - FAISS
